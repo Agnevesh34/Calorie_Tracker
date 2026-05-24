@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calorie Tracker 🥗📸
 
-## Getting Started
+Calorie Tracker is a lightning-fast, full-stack web application that acts as an AI-powered personal nutritionist. By leveraging multimodal AI, users can either upload a photo of their meal or simply type a description (e.g., "2 Liters of Milk") to receive a highly accurate, instant breakdown of their macronutrients.
 
-First, run the development server:
+## 📸 Previews
 
+<img width="540" height="850" alt="calorie_tracker_output1" src="https://github.com/user-attachments/assets/5db60cac-5feb-4ad6-86d8-33bc6004fe10" />
+
+<img width="428" height="616" alt="calorie_tracker_output4" src="https://github.com/user-attachments/assets/11394a70-2cd7-494c-b238-705e875233c0" />
+
+## ✨ Features
+
+* **Multimodal AI Analysis:** Powered by Google's Gemini 2.5 Flash model, capable of understanding both complex images and natural language text.
+* **Instant Macro Breakdown:** Accurately estimates Calories, Protein, Carbohydrates, Fat, and Fiber.
+* **Dynamic Verdict:** Automatically flags meals as "Bulk Friendly" or "Cut Friendly" based on caloric density and macro ratios.
+* **Sleek UI/UX:** Built with a dark-mode, glassmorphism design using Tailwind CSS for a premium native-app feel.
+* **Responsive Design:** Fully optimized for both desktop browsers and mobile devices.
+
+## 🛠️ Tech Stack
+
+* **Frontend & Backend:** Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **AI Engine:** Google Gemini 2.5 Flash (via `@google/generative-ai` SDK)
+* **Deployment:** Ready for Vercel
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/Agnevesh34/Calorie_Tracker.git](https://github.com/Agnevesh34/Calorie_Tracker.git)
+cd calorie-scanner
